@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/simonausten/purplebricks_test/issues"
   },
-  "homepage": "https://github.com/simonausten/purplebricks_test"
+  "homepage": "https://github.com/simonausten/purplebricks_test",
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "sassify": "^0.9.1",
+    "watchify": "^3.2.2"
+  }
 }
