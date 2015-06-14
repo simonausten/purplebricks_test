@@ -1,0 +1,51 @@
+// Imports
+
+@import 'bootstrap';
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700);
+
+// Fonts
+
+$base-font:		Helvetica, Arial, sans-serif;
+$google-font:	'Source Sans Pro', $base-font;
+
+// Colours
+
+$purple:		#59006D;
+$red:			#EB0031;
+$grey:			#aaaaaa;
+$darkgrey:		#bababa;
+$lightgrey:		#e7e7e7;
+$blue:			#30AAF0;
+
+// Mixins
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+// Styles
+
+html, body {
+	height: 100%;
+}
+
+// Sticky Footer
+
+$footer-height:	38px;
+
+#wrap {
+	min-height: 100%;
+	margin: 0 auto -1*$footer-height;
+}
+
+body > footer, .push {
+	height: $footer-height;
+}
+
+
+
+
+
