@@ -4,7 +4,10 @@
   "description": "Purplebricks.com technical interview solution",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch_css": "node-sass -w ./_/src/css -o ./_/dist --output-style compressed",
+    "watch_js": "",
+    "watch": "npm run watch_css"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,7 @@
   "homepage": "https://github.com/simonausten/purplebricks_test",
   "devDependencies": {
     "browserify": "^10.2.4",
+    "node-sass": "^3.2.0",
     "sassify": "^0.9.1",
     "watchify": "^3.2.2"
   }
