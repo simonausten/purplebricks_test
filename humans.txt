@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Simon Austen -- Developer and Job Seeker -- @scausten
+
+# THANKS
+
+    David Kavanagh (for your consideration, and tolerating this brazen suck-uppery)
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Bootstrap, jQuery, Modernizr
