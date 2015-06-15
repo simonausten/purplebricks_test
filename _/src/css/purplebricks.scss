@@ -1,12 +1,17 @@
 // Imports
 
 @import 'bootstrap';
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,900);
 
 // Fonts
 
-$base-font:		Helvetica, Arial, sans-serif;
+$base-font:		Arial, Helvetica, sans-serif;
 $google-font:	'Source Sans Pro', $base-font;
+
+$font-size-header:		28px;
+$font-size-medium:		22px;
+$font-size-body:		17px;
+$font-size-small:		12px;
 
 // Colours
 
@@ -16,6 +21,7 @@ $grey:			#aaaaaa;
 $darkgrey:		#bababa;
 $lightgrey:		#e7e7e7;
 $blue:			#30AAF0;
+$white:			#ffffff;
 
 // Mixins
 
@@ -43,6 +49,10 @@ $footer-height:	38px;
 
 body > footer, .push {
 	height: $footer-height;
+}
+
+h1 {
+	font-size: $font-size-header;
 }
 
 
