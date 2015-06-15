@@ -15,12 +15,12 @@ $font-size-small:		12px;
 
 // Colours
 
-$purple:		#59006D;
-$red:			#EB0031;
+$purple:		#550066;
+$red:			#ed1c24;
 $grey:			#aaaaaa;
 $darkgrey:		#bababa;
 $lightgrey:		#e7e7e7;
-$blue:			#30AAF0;
+$blue:			#00aeef;
 $white:			#ffffff;
 
 // Mixins
@@ -51,10 +51,45 @@ body > footer, .push {
 	height: $footer-height;
 }
 
-h1 {
-	font-size: $font-size-header;
+// Text styles
+
+body {
+	font-size: $font-size-body;
 }
 
+h1 {
+	font-size: $font-size-header;
+	font-family: $google-font;
+}
+
+small {
+	font-size: $font-size-small;
+}
+
+time {
+	font-size: $font-size-small;
+}
+
+.btn {
+	text-transform: uppercase;
+	background-color: $grey;
+	color: $white;
+}
+
+.btn-action {
+	background-color: $purple;
+}
+
+.btn-submit {
+	font-size: $font-size-medium;
+	background-color: $blue
+}
+
+.the-property__price, .buyers-offer p {
+	&:before {
+		content: '£';
+	}
+}
 
 
 
